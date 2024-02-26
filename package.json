@@ -11,7 +11,9 @@
     "format": "bash -c 'prettier \"**/*.{ts,tsx,js,jsx,json,yml,yaml}\" --ignore-path <(cat .gitignore .prettierignore) --write'",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ."
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [],
   "author": "bolomio",
   "license": "ISC",
