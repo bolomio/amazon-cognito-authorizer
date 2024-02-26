@@ -20,11 +20,11 @@ npm install @bolomio/cognito-authorizer
 ## Usage
 
 ```javascript
-const { makecognitoAuthorizer } = require('@bolomio/cognito-authorizer');
+const { makeCognitoAuthorizer } = require('@bolomio/cognito-authorizer');
 const { HTTPError } = require('got');
 
 // Create an instance of the cognito authorizer with custom options
-const authorizer = makecognitoAuthorizer({
+const authorizer = makeCognitoAuthorizer({
   baseUrl: "https://{domain-name}.auth.{region}.amazoncognito.com/",
 });
 
